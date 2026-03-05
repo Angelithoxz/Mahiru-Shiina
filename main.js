@@ -38,7 +38,7 @@ const users = chat.users[sender] || {}
 const rawBotname = settings.namebot || 'Yuki'
 const tipo = settings.type || 'Sub'
 const isValidBotname = /^[\w\s]+$/.test(rawBotname)
-const namebot = isValidBotname ? rawBotname : 'Yuki'
+const namebot = isValidBotname ? rawBotname : 'Mahiru'
 const shortForms = [namebot.charAt(0), namebot.split(" ")[0], tipo.split(" ")[0], namebot.split(" ")[0].slice(0, 2), namebot.split(" ")[0].slice(0, 3)]
 const prefixes = shortForms.map(name => `${name}`)
 prefixes.unshift(namebot)
