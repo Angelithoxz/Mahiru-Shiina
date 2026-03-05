@@ -35,7 +35,7 @@ export default {
       const buffer = Buffer.from(json.data.result.image, 'base64')
       let user = globalThis.db.data.users[m.sender] || {}
       const name = user.name || m.sender.split('@')[0]
-      let texto1 = user.metadatos || `ʏᴜᴋɪ 🧠 Wᴀʙᴏᴛ'ꜱ`
+      let texto1 = user.metadatos || `Shiina 🧠 Wᴀʙᴏᴛ'ꜱ`
       let texto2 = user.metadatos2 || `@${name}`
       const tmpFile = `./tmp-${Date.now()}.webp`
       await fs.writeFileSync(tmpFile, buffer)
