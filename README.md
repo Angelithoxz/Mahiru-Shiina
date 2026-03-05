@@ -144,4 +144,4 @@ cd && cd Mahiru-Shiina && rm -rf Sessions/Owner && npm start
 ---
 
 ### 💐 Propietario
-[![King](https://github.com/Angelithoxz .png?size=120)](https://github.com/Angelithoxz ) 
+[![Angelithoxz](https://github.com/Angelithoxz.png?size=120)](https://github.com/Angelithoxz ) 
