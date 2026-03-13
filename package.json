@@ -14,7 +14,7 @@
     "bot-wa",
     "multi-device"
   ],
-  "author": "The-King-Destroy",
+  "author": "Angelithoxyz",
   "license": "MIT",
   "engines": {
     "node": ">=21.7.3",
@@ -23,7 +23,7 @@
   "dependencies": {
     "@babel/parser": "latest",
     "@vitalets/google-translate-api": "^8.0.0",
-    "@whiskeysockets/baileys": "github:Ado21/BailMod",
+        "@whiskeysockets/baileys": "github:this-xys/baileys", 
     "acrcloud": "^1.4.0",
     "aptoide-scraper": "github:DIEGO-OFC/dv-aptoide-scraper",
     "axios": "^0.24.0",
