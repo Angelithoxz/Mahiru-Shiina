@@ -8,7 +8,7 @@ const dirname = path.dirname(filename)
 let commandFlags = {}
 
 export default {
-  command: ['codes', 'qrs'],
+  command: ['code', 'qr'],
   category: 'socket',
   run: async (client, m, args, usedPrefix, command) => {
     let time = global.db.data.users[m.sender].Subs + 120000 || ''
