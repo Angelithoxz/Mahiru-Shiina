@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 const GITHUB_TOKEN = ''
 
-const SOURCE_OWNER = 'The-King-Destroy'
+const SOURCE_OWNER = 'iamDestroy'
 const SOURCE_REPO = 'YukiBot-MD'
 
 const TARGET_OWNER = 'Angelithoxz'
